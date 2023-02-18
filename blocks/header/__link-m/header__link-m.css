@@ -1,0 +1,11 @@
+.header__link-m {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 18px;
+  width: 30px;
+  height: 28px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}

@@ -1,0 +1,9 @@
+.Intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 690px;
+  height: 615px;
+  margin-left: 148px;
+
+}

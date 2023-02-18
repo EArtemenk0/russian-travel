@@ -1,0 +1,9 @@
+.place__website {
+  max-height: 152px;
+  max-width: 456px;
+  margin: 0 0 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+}

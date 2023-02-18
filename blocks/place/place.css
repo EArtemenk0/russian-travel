@@ -1,0 +1,12 @@
+.place {
+  max-width: 986px;
+  max-height: 660px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 40px;
+}
+
+.place:last-of-type {
+  margin-bottom: 118px;
+}

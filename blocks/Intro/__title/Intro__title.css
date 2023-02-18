@@ -1,0 +1,9 @@
+.Intro__title {
+  display: flex;
+  max-width: 100%;
+  max-height: 58px;
+  align-items: center;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+}
