@@ -1,7 +1,7 @@
-.place__paragraphs {
-  max-width: 484px;
+.Intro__text {
+  margin: 40px 0 33px;
   font-family: "Inter-Regular";
-  font-size: 18px;
+  font-size: 16px;
   line-height: 163%;
   font-weight: 400;
 }

@@ -1,3 +1,8 @@
 .lead__caption {
   margin: 0;
+  font-family: "Inter-Regular";
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  max-width: 158px;
 }

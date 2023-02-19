@@ -1,0 +1,13 @@
+.List {
+  font-family: "Inter-Bold";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+  max-height: 90px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
