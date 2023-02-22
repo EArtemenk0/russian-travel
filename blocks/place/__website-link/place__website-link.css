@@ -2,11 +2,12 @@
   margin: 12px 0 0;
   max-height: 22px;
   width: 100%;
-  font-family: "Inter-Regular";
+  font-family: "Inter";
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
   color: #fff;
+  text-underline-offset: 4px;
 }
 
 .place__website-link:hover {

@@ -1,8 +1,22 @@
 .lead__caption {
-  margin: 0;
-  font-family: "Inter-Regular";
+  margin: 8px 0 0;
+  font-family: "Inter";
   font-size: 10px;
   line-height: 14px;
   font-weight: 400;
+  letter-spacing: 1.5px;
   max-width: 158px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }

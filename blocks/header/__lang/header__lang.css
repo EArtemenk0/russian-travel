@@ -1,6 +1,16 @@
 .header__lang {
-  font-family: "Inter-Regular";
+  display:flex;
+  color: #fff;
+  font-family: "Inter";
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+  }
 }

@@ -1,0 +1,22 @@
+.header__link {
+  display: block;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-align: end;
+  margin: 18px 18px 6px 0;
+  width: 30px;
+  height: 28px;
+  color: #fff;
+}
+
+.header__link:hover {
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link {
+    width: 22px;
+    height: 20px;
+    margin: 0 18px 0 0;
+  }
+}

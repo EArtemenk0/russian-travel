@@ -1,4 +1,29 @@
 .Intro {
-  margin: 0;
-  max-height: 615px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 690px;
+  padding: 92px 0 92px 148px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .Intro {
+    padding: 92px 0 92px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Intro {
+    padding: 88px 0;
+    margin: 0 auto;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .Intro {
+    padding: 64px 16px;
+    max-width: 752px;
+  }
 }

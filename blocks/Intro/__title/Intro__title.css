@@ -3,9 +3,22 @@
   max-width: 100%;
   max-height: 58px;
   align-items: center;
-  font-family: "Inter-Regular";
+  font-family: "Inter";
   font-size: 54px;
   line-height: 58px;
-  font-weight: 400;
+  font-weight: 900;
   margin: 0;
+}
+
+@media screen and (max-width: 670px) {
+  .Intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Intro__title {
+    max-height: 70px;
+  }
 }

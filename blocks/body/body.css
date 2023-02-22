@@ -1,8 +1,7 @@
 .body {
-  margin: 0 auto;
   font-family: 'Arial', sans-serif;
   padding: 0;
   background-color: #2A2C2F;
   color: #fff;
-  max-width: 100%;
+  padding: 0;
 }
