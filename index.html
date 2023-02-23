@@ -7,16 +7,16 @@
   <meta name="keywords" content="HTML5, CSS">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Evgenii Artemenko">
-  <link rel="stylesheet" type="text/css" href="/pages/index.css">
+  <link rel="stylesheet" type="text/css" href="pages/index.css">
   <title>Путешествия по России</title>
 </head>
 
 <body>
   <div class="body">
     <div class="page margin-auto">
-      <!--margin-auto доп общий стиль для центрирования блоков и элементов-->
+      <!--margin-auto общий стиль для центрирования блоков и элементов-->
       <header class="header margin-auto">
-        <img class="logo" src="/images/header-logo.svg" alt="лого карта России">
+        <img class="logo" src="images/header-logo.svg" alt="лого карта России">
         <nav class="header__lang">
           <a href="#" class="header__link" lang="en">Ru</a>
           <a href="#" class="header__link header__link_not-active" lang="en">En</a>
@@ -26,12 +26,13 @@
         <section class="lead margin-auto" aria-label="карта поездки">
           <h1 class="lead__title margin-auto">Путешествия по&nbsp;России</h1>
           <h3 class="lead__subtitle margin-auto">Настоящая страна не в выпусках новостей, а здесь.</h3>
-          <img class="lead__image" src="/images/lead-polka.png" alt="Фото поезда">
+          <img class="lead__image" src="images/lead-polka.png" alt="Фото поезда">
           <p class="lead__caption">ваша&nbsp;полка&nbsp;—&nbsp;верхняя</p>
         </section>
-        <section class="Intro" aria-label="текст о поездке">
-          <h3 class="Intro__title">Чего мы там не&nbsp;видели?</h3>
-          <p class="Intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
+        <!-- Пришлось использовать nbsp для адаптации цекста под макет  -->
+        <section class="intro" aria-label="текст о поездке">
+          <h3 class="intro__title">Чего мы там не&nbsp;видели?</h3>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
             провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
             вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все
             эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
@@ -39,36 +40,40 @@
             20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего
             отпуска.
           </p>
-          <ul class="List">
-            <li class="List__item">Часовых поясов <span class="List__number">11</span></li>
-            <li class="List__item">Объектов природного наследия ЮНЕСКО <span class="List__number">12</span></li>
-            <li class="List__item">Объектов культурного наследия ЮНЕСКО <span class="List__number">16</span></li>
-            <li class="List__item">Природных заповедников <span class="List__number">105</span></li>
-            <li class="List__item">Аэропортов <span class="List__number">241</span></li>
+          <ul class="list">
+            <li class="list__item">Часовых поясов<span class="list__number">&nbsp;11</span></li>
+            <li class="list__item">Объектов природного наследия ЮНЕСКО<span class="list__number">&nbsp;12</span></li>
+            <li class="list__item">Объектов культурного наследия ЮНЕСКО<span class="list__number">&nbsp;16</span></li>
+            <li class="list__item">Природных заповедников <span class="list__number">&nbsp;105</span></li>
+            <li class="list__item">Аэропортов <span class="list__number">&nbsp;241</span></li>
           </ul>
+          <!--span для для выделения цифр из текста -->
         </section>
+        <!--решил использовать грид для вёрстки данного блока   -->
         <section class="photo-grid margin-auto" aria-label="фото">
-          <img src="/images/photo-grid-train.png" alt="поезд" class="photo-grid__item">
-          <img src="/images/photo-grid-atharva-tulsi.png" alt="Горы" class="photo-grid__item">
-          <img src="/images/photo-grid-tuman.png" alt="Туман" class="photo-grid__item">
-          <img src="/images/photo-grid-sochi.png" alt="Сочи горы" class="photo-grid__item">
-          <img src="/images/photo-grid-arisa-chattasa.png" alt="Лёд" class="photo-grid__item">
-          <img src="/images/photo-grid-baikal.png" alt="Байкал" class="photo-grid__item">
-          <img src="/images/photo-grid-elbrus.png" alt="Эльбрус" class="photo-grid__item">
-          <img src="/images/photo-grid-kondratiev.png" alt="Дорожный знак" class="photo-grid__item">
-          <img src="/images/photo-grid-kamchatka.png" alt="Камчатка" class="photo-grid__item">
-          <img src="/images/photo-grid-kamchatka-2.png" alt="Камчатка вулкан" class="photo-grid__item">
-          <img src="/images/photo-grid-baikal-2.png" alt="Байкал Ольхон" class="photo-grid__item">
-          <img src="/images/photo-grid-ergaki.png" alt="Ергаки" class="photo-grid__item">
+          <img src="images/photo-grid-train.png" alt="поезд" class="photo-grid__item">
+          <img src="images/photo-grid-atharva-tulsi.png" alt="Горы" class="photo-grid__item">
+          <img src="images/photo-grid-tuman.png" alt="Туман" class="photo-grid__item">
+          <img src="images/photo-grid-sochi.png" alt="Сочи горы" class="photo-grid__item">
+          <img src="images/photo-grid-arisa-chattasa.png" alt="Лёд" class="photo-grid__item">
+          <img src="images/photo-grid-baikal.png" alt="Байкал" class="photo-grid__item">
+          <img src="images/photo-grid-elbrus.png" alt="Эльбрус" class="photo-grid__item">
+          <img src="images/photo-grid-kondratiev.png" alt="Дорожный знак" class="photo-grid__item">
+          <img src="images/photo-grid-kamchatka.png" alt="Камчатка" class="photo-grid__item">
+          <img src="images/photo-grid-kamchatka-2.png" alt="Камчатка вулкан" class="photo-grid__item">
+          <img src="images/photo-grid-baikal-2.png" alt="Байкал Ольхон" class="photo-grid__item">
+          <img src="images/photo-grid-ergaki.png" alt="Ергаки" class="photo-grid__item">
         </section>
+        <!--Блок places флекс column-->
         <section class="places margin-auto" aria-label="места России">
+          <!--Блок place грид-->
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a class="place__website-link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
-            <img class="place__image" src="/images/place-kosa.png" alt="Куршская коса">
+            <img class="place__image" src="images/place-kosa.png" alt="Куршская коса">
             <div class="place__paragraphs">
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского
@@ -92,7 +97,7 @@
               <a class="place__website-link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 target="_blank">National Geographic</a>
             </div>
-            <img class="place__image" src="/images/place-kolsky.png" alt="Кольский">
+            <img class="place__image" src="images/place-kolsky.png" alt="Кольский">
             <div class="place__paragraphs">
               <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
                 от&nbsp;которой на юг — тайга,&nbsp;а&nbsp;на север — Ледовитый океан, прикидывающийся Баренцевым морем.
@@ -112,7 +117,7 @@
               <a class="place__website-link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                 target="_blank">YouTube</a>
             </div>
-            <img class="place__image" src="/images/place-altai.png" alt="Алтай">
+            <img class="place__image" src="images/place-altai.png" alt="Алтай">
             <div class="place__paragraphs">
               <p class="place__paragraph">Алтай — одно из красивейших мест в России.
                 В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные
@@ -133,7 +138,7 @@
               <a class="place__website-link" href="https://vk.com/baikalmile"
                 target="_blank">https://vk.com/baikalmile</a>
             </div>
-            <img class="place__image" src="/images/place-winter-baikal.png" alt="зимний Байкал">
+            <img class="place__image" src="images/place-winter-baikal.png" alt="зимний Байкал">
             <div class="place__paragraphs">
               <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в&nbsp;мире. Многие также
                 знают, что это самый большой источник пресной воды и одно из&nbsp;красивейших мест в
@@ -151,7 +156,7 @@
               <a class="place__website-link" href="https://stampsy.com/na-elektrichkakh-do-baikala"
                 target="_blank">http://vodlozero.ru/</a>
             </div>
-            <img class="place__image" src="/images/place-karelia.png" alt="Карелия">
+            <img class="place__image" src="images/place-karelia.png" alt="Карелия">
             <div class="place__paragraphs">
               <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
                 лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -174,7 +179,9 @@
       <footer class="footer margin-auto">
         <nav>
           <ul class="footer__links">
-            <!--тут не нашёл решения обнулить маржин у последнего элемента с помощью псевдокласса и без стиля для li, буду благодарен если подскажите решение-->
+            <!--тут не нашёл решения обнулить маржин у последнего элемента с помощью псевдокласса,
+            без создания классов для li, по этому показалось что проще создать активный булевый модификатор,
+            буду благодарен если подскажите решение-->
             <li>
               <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
             </li>
@@ -188,8 +195,7 @@
               <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
             </li>
             <li>
-              <a class="footer__link footer__link_margin" href="https://travel.yandex.ru"
-                target="_blank">Путешествия</a>
+              <a class="footer__link footer__link_margin" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
             </li>
           </ul>
         </nav>
@@ -200,3 +206,6 @@
 </body>
 
 </html>
+<!--Спасибо за неиспользуемую итерацию,
+действительно ошибка была глупой,
+спасибо за дальнейшую обратную свзязь-->
