@@ -1,6 +1,6 @@
 .header__link_not-active {
   margin-right: 0;
-  width: 29px;
+  max-width: 29px;
   text-decoration: none;
 }
 
