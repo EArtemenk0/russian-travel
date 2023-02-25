@@ -1,7 +1,7 @@
 .header__lang {
   display:flex;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", 'Arial', sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
@@ -10,7 +10,7 @@
 @media screen and (max-width: 320px) {
   .header__lang {
     font-size: 18px;
-    display: flex;
+    line-height: 20px;
     align-items: end;
   }
 }
