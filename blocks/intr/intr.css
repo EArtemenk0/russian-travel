@@ -1,8 +1,8 @@
-.intro {
-  max-width: 690px;
+.intr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 690px;
   padding: 92px 0 92px 148px;
 }
 

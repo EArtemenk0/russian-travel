@@ -1,4 +1,4 @@
-.intro__title {
+.intr__title {
   display: flex;
   width: 100%;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 670px) {
-  .intro__title {
+  .intr__title {
     font-size: 32px;
     line-height: 35px;
   }
